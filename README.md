@@ -11,7 +11,7 @@ The script uses CRAN package [seqinR](https://cran.r-project.org/web/packages/se
 ## Getting started
 1. Download the script file (**cleave2text.R**) and the example input file (**uniprotkb_2024_02_19_test-set.fasta**).
 2. Open R and, if necessary, install the required packages.
-3. Transfer the example input file to your R working directory [if you don't know where this is, use the _getwd()_ command to find out].
+3. Transfer the example input file to your R working directory [if you don't know where this is, use the `getwd()` command to find out].
 4. Open the script file in R (File > Open script).
 5. Run the script (Edit > Run all).
 6. Review the output in the R console, noting any warnings.
