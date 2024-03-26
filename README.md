@@ -6,7 +6,7 @@ cleave2text is an R/Bioconductor script that performs in silico digestion of a F
 
 The script uses CRAN package [seqinR](https://cran.r-project.org/web/packages/seqinr/index.html) for the handling of protein sequence data, and Bioconductor package [cleaver](https://bioconductor.org/packages/release/bioc/html/cleaver.html) for the in silico digestion. The software and package versions under which the script was developed and tested can be found in **v1.0.0_testrun_sessionInfo.txt**.
 
-* I would avoid using the truncation function on anything other than original full-length sequences from UniProt, otherwise things could get very confusing. Specifically, you could end up with amino-acid index numbers that no longer relate to the UniProt accession number in your FASTA headers/file names. 
+\* I would avoid using the truncation function on anything other than original full-length sequences from UniProt, otherwise things could get very confusing. Specifically, you could end up with amino-acid index numbers that no longer relate to the UniProt accession number in your FASTA headers/file names. 
 
 ## Getting started
 1. Download the script file (**cleave2text.R**) and the example input file (**uniprotkb_2024_02_19_test-set.fasta**).
