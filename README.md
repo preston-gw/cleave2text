@@ -19,4 +19,4 @@ The script uses CRAN package [seqinR](https://cran.r-project.org/web/packages/se
 8. Try re-running the script with different user-defined parameters (see script header for details).
 
 ## Acknowledgements
-The example input file contains sequences from [UniProtKB](https://www.uniprot.org/).
+The sequences in the example input file were obtained from [UniProtKB](https://www.uniprot.org/).
