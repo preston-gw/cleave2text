@@ -1,0 +1,33 @@
+> print(sessionInfo())
+R version 4.3.2 (2023-10-31 ucrt)
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+Running under: Windows 11 x64 (build 22621)
+
+Matrix products: default
+
+
+locale:
+[1] LC_COLLATE=English_United Kingdom.utf8 
+[2] LC_CTYPE=English_United Kingdom.utf8   
+[3] LC_MONETARY=English_United Kingdom.utf8
+[4] LC_NUMERIC=C                           
+[5] LC_TIME=English_United Kingdom.utf8    
+
+time zone: Europe/London
+tzcode source: internal
+
+attached base packages:
+[1] stats4    stats     graphics  grDevices utils     datasets  methods  
+[8] base     
+
+other attached packages:
+[1] cleaver_1.40.0      Biostrings_2.70.2   GenomeInfoDb_1.38.5
+[4] XVector_0.42.0      IRanges_2.36.0      S4Vectors_0.40.2   
+[7] BiocGenerics_0.48.1 seqinr_4.2-36      
+
+loaded via a namespace (and not attached):
+ [1] zlibbioc_1.48.0         GenomeInfoDbData_1.2.11 RCurl_1.98-1.14        
+ [4] bitops_1.0-7            compiler_4.3.2          tools_4.3.2            
+ [7] ade4_1.7-22             Rcpp_1.0.12             crayon_1.5.2           
+[10] MASS_7.3-60            
+> 
