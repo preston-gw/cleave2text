@@ -7,4 +7,11 @@ cleave2text is an R/Bioconductor script that performs in silico digestion of a F
 The script uses CRAN package [seqinR](https://cran.r-project.org/web/packages/seqinr/index.html) for the handling of protein sequence data, and Bioconductor package [cleaver](https://bioconductor.org/packages/release/bioc/html/cleaver.html) for the in silico digestion. The software and package versions under which the script was developed and tested can be found in **v1.0.0_testrun_sessionInfo.txt**. 
 
 ## Getting started
-Section under construction..
+1. Download the script file (**cleave2text.R**) and the example input file (**uniprotkb_2024_02_19_test-set.fasta**).
+2. Open R and, if necessary, install the required packages.
+3. Transfer the example input file to your R working directory [if you don't know where this is, use the _getwd()_ command to find out].
+4. Open the script file in R (File > Open script).
+5. Run the script (Edit > Run all).
+6. Review the output in the R console, noting any warnings.
+7. Check your working directory for output files. You should find a text file containing an in silico digest of the SARS-CoV-2 spike glycoprotein.
+8. Try re-running the script with different user-defined parameters (see script header for details).
